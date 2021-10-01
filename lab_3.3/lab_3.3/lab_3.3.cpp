@@ -21,7 +21,7 @@ int main()
         y = sqrt(r1 * r1 - pow((x + r1), 2));
     }
     else if (x > 0 && x < 2 * r2) {
-        y = sqrt(r2 * r2 - pow((x - r2), 2));
+        y = -sqrt(r2 * r2 - pow((x - r2), 2));
     }
     else if (x >= 2*r2 && x <= 6) {
         y = (x - 2 * r2) / (6 - 2 * r2);
